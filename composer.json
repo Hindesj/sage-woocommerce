@@ -1,18 +1,18 @@
 {
-  "name": "generoi/sage-woocommerce",
+  "name": "hindesj/sage-woocommerce",
   "type": "library",
   "license": "MIT",
   "description": "",
-  "homepage": "https://github.com/generoi/sage-woocommerce",
+  "homepage": "https://github.com/hindesj/sage-woocommerce",
   "authors": [
     {
-      "name": "Oskar Schöldström",
-      "email": "public@oxy.fi"
+      "name": "Jackson Hindes",
+      "email": "jackson@curiousm.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Genero\\Sage\\WooCommerce\\": "src/"
+      "Hindes\\Sage\\WooCommerce\\": "src/"
     }
   },
   "require": {
@@ -36,7 +36,7 @@
   "extra": {
     "acorn": {
       "providers": [
-        "Genero\\Sage\\WooCommerce\\WooCommerceServiceProvider"
+        "Hindes\\Sage\\WooCommerce\\WooCommerceServiceProvider"
       ]
     }
   }
